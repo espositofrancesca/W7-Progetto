@@ -1,0 +1,118 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+img {
+    width: 80px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+.card {
+
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    /* height: 245px; */
+    margin: 20px;
+    align-items: center;
+    border-radius: none !important;
+    border: none;
+    border-top: 2px solid #F5821E;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    transition: height 1s ease-out;
+
+}
+
+.card-height {
+    height: 365px;
+}
+
+button {
+    border: none;
+    padding: 13px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px -4px rgba(0, 0, 0, 0.169);
+}
+
+.div-button button {
+    width: 100%;
+    background-color: #d27350;
+    color: white;
+}
+
+
+body>button {
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 0.7rem;
+}
+
+.lni {
+    cursor: pointer;
+}
+
+body>h2 {
+    margin-left: 50px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content button {
+    background-color: rgb(68, 133, 68);
+    margin: 10px 0px 0px 0px;
+    color: white;
+}
+
+input {
+    padding: 10px;
+    margin: 6px 2px;
+}
+
+#modal {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#modal.active {
+    display: flex;
+}
+
+#modal h2 {
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "username": "john",
+    "firstName": "John",
+    "lastName": "Doe",
+    "gender": "Male",
+    "image": "../img/male.png",
+    "email": "john.doe@example.com",
+    "age": "25",
+    "city": "New York",
+    "job":"Marketing Director"
+  },
+  {
+    "username": "jane",
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "gender": "Female",
+    "image": "../img/female.png",
+    "email": "jane.doe@example.com",
+    "age": "20",
+    "city": "Sao Paulo",
+    "job":"Relationship Manager"
+  },
+  {
+    "username": "david",
+    "firstName": "David",
+    "lastName": "Morrison",
+    "gender": "Male",
+    "image": "../img/male1.png",
+    "email": "david.morrison@example.com",
+    "age": "40",
+    "city": "Atlanta",
+    "job":"Interior Designer"
+  },
+  {
+    "username": "holly",
+    "firstName": "Holly",
+    "lastName": "Harris",
+    "gender": "Female",
+    "image": "../img/female1.png",
+    "email": "holly.harris@example.com",
+    "age": "27",
+    "city": "Amsterdam",
+    "job":"Nurse"
+  }
+]
